@@ -1,3 +1,6 @@
 class Transfer
-  # your code here
+  attr_reader :sender 
+  attr_accessor :receiver
+  
+  def initialize
 end
