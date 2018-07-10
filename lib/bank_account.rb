@@ -12,5 +12,14 @@ class BankAccount
     self.balance += deposit_amount
   end
   
+  def display_balance
+    "Your balance is $#{balance}."
+  end
+  
+  def close_account
+    self.status = "closed"
+  end
+  
+  
 
 end
